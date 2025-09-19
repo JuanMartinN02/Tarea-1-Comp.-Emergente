@@ -175,9 +175,13 @@ def main():
         print("Try again with different weights and bias? (Input the number 1 or 2)")
         repeat = int(input("1.- yes / 2.- no"))
         if repeat == 2:
+            print("See you later!")
             break
-        else:
+        elif repeat == 1:
             continue
+        else:
+            print("Input not valid, see you later!")
+            break
 
 
 main()
